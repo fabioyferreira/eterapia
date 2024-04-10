@@ -13,11 +13,61 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("img/PSICOLOGIA2.jpg");
+    background-repeat: no-repeat;background-position: center center;
+
+}
+
+.logo2{
+display: contents;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+
+.paragrafo1{
+color: white;
+width: 300px;
 }
 .rodape{
     background-color: rgb(224, 222, 218);
     display: flex;
     align-content: center;
-    justify-content: center;
+    justify-content: space-around;
 
 }
+.home{
+    color: white;
+}
+
+
+/*  INICIO - Tela Login*/
+
+.container-login{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   height: 800px;
+  
+   background-color: rgb(170, 172, 171);
+
+}
+
+.acessarconta{
+    display: flex;
+    background-color: rgb(202, 201, 201);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 300px;
+    height: 300px;
+
+}
+
+
+/*  FIM - Tela Login*/
