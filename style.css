@@ -66,8 +66,80 @@ width: 300px;
     align-content: center;
     width: 300px;
     height: 300px;
+    border: 2px solid gray;
+    border-radius: 15px;
+
+}
+.email{
+    display: flex;
+    flex-direction: column;
+
+}
+.senha{
+    display: flex;
+    flex-direction: column;
 
 }
 
 
 /*  FIM - Tela Login*/
+
+
+/*  INICIO - Tela QUEM É VC*/
+.container-quemevc{
+display: flex;
+flex-direction: column;
+height: 300px;
+background-color: rgb(240, 238, 238);
+align-items: center;
+/*justify-content: center;*/
+
+}
+
+.contenos{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(147, 199, 241);
+    width: 450px;
+    height: 100px;
+    border: solid 2px ;
+    border-radius: 17px;
+    
+    justify-content: center ;
+    align-items: center;
+    align-content: center;
+}
+
+.sou{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 500px;
+    
+}
+.paciente{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(162, 204, 204);
+    text-align: center;
+    border: solid 2px ;
+    border-radius: 5px;
+
+}
+.profissional{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(130, 130, 185);
+    text-align: center;
+    border: solid 2px ;
+    border-radius: 5px;
+    
+}
+
+
+/*  FIM- Tela QUEM É VC*/
