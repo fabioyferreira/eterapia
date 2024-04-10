@@ -95,6 +95,11 @@ align-items: center;
 /*justify-content: center;*/
 
 }
+.menucontenos{
+    display: flex;
+    flex-direction: column;
+
+}
 
 .contenos{
     display: flex;
@@ -118,6 +123,7 @@ align-items: center;
     align-content: center;
     text-align: center;
     height: 500px;
+    justify-content: space-around;
     
 }
 .paciente{
@@ -128,6 +134,8 @@ align-items: center;
     text-align: center;
     border: solid 2px ;
     border-radius: 5px;
+    justify-content: center;
+    justify-items: center;
 
 }
 .profissional{
@@ -138,6 +146,7 @@ align-items: center;
     text-align: center;
     border: solid 2px ;
     border-radius: 5px;
+    justify-content: center;
     
 }
 
