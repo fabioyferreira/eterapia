@@ -36,6 +36,7 @@ width: 300px;
     display: flex;
     align-content: center;
     justify-content: space-around;
+    height: 170px;
 
 }
 .home{
