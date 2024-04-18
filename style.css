@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .menu{
 background-color: rgb(224, 222, 218);
 display: flex;
@@ -116,11 +125,12 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     background-color: rgb(147, 199, 241);
-    width: 450px;
+    width: 600px;
     height: 100px;
     border: solid 0px ;
     border-radius: 17px;
     align-items: center;
+    justify-content: center; /*Coloca o texto ao cento de cima para baixo*/
 
    
 }
@@ -138,6 +148,7 @@ justify-content: center;
 }
 .paciente{
     display: flex;
+    flex-direction: column; /* Coloca o texto e o botão um abaixo do outro*/
     width: 500px;
     height: 500px;
     background-color: rgb(162, 204, 204);
@@ -147,11 +158,15 @@ justify-content: center;
     justify-content: center;
     justify-items: center;
     align-items: center; /*Alinha o texto na div*/
+    box-shadow: 10px 10px 10px rgb(69, 133, 141); /*Faz uma sombra em uma caixa*/
+    padding: 50px; /*Coloca margem interna na caixa*/
+    text-align: justify; /*coloca o texto da caixa justificado*/
 
 
 }
 .profissional{
     display: flex;
+    flex-direction: column;
     width: 500px;
     height: 500px;
     background-color: rgb(130, 130, 185);
@@ -160,6 +175,10 @@ justify-content: center;
     border-radius: 5px;
     justify-content: center;
     align-items: center; /*Alinha o texto na div*/
+    box-shadow: 10px 10px 10px rgb(114, 98, 128); /*Faz uma sombra em uma caixa*/
+    padding: 50px; /*Coloca margem interna na caixa*/
+    margin: 10px;
+    text-align: justify; /*coloca o texto da caixa justificado*/
     
 }
 
