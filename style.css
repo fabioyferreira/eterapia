@@ -5,7 +5,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
+
+
 
 .menu{
 background-color: rgb(224, 222, 218);
@@ -13,7 +16,11 @@ display: flex;
 justify-content: space-between;
 height: 40px;
 align-items: center;
+padding: 20px; /*descola o menu da borda*/
+list-style-type: none; /* retira os pontos da lista*/
+text-decoration: none;
 }
+
 
 
 .flex-container{
@@ -194,12 +201,15 @@ justify-content: center;
     align-items: center;
     align-content: center;
     justify-content: center;
+    background-color: rgb(187, 201, 245);
+    height: 200px;
 
 }
 .cadastrarpaciente{
 display: flex;
 flex-direction: row;
 max-width: 100%;
+height: 800px;
 justify-content: space-evenly;
 background-color: rgb(219, 225, 245);
 align-items: center;
@@ -220,9 +230,18 @@ align-items: center;
     align-items: center;
     align-content: center;
     justify-content: center;
+    height: 200px;
+    background-color: rgb(200, 223, 215);
 
 }
-.cadastrar{
+.criaconta{
+display: flex;
+justify-content: center;
+max-width: 100%;
+height: 50px;
+background-color: rgb(198, 240, 226);
+}
+.cadastrarprofissional{
 display: flex;
 flex-direction: row;
 max-width: 100%;
