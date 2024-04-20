@@ -11,28 +11,39 @@
 
 
 .menu{
-background-color: rgb(224, 222, 218);
+background-color: rgb(169, 247, 218);
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 height: 40px;
 align-items: center;
 padding: 20px; /*descola o menu da borda*/
 list-style-type: none; /* retira os pontos da lista*/
 text-decoration: none;
 }
+.menu img{
+width:100px;
+height: 40px;
+}
 
 
 
 .flex-container{
-    height: 600px;
-    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    height:900px;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-content: center;
-    flex-direction: column;
     align-items: center;
-    background-image: url("img/PSICOLOGIA2.jpg");
-    background-repeat: no-repeat;background-position: center center;
+    /*background-image: url("img/Libbs_A_Vida_Plena_Psicoterapia_780x450.png");*/
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.flex-container img{
+    width: 80%;
+    height: 80%;
 
 }
 
@@ -44,19 +55,22 @@ align-content: center;
 }
 
 .paragrafo1{
-color: white;
+color: rgb(12, 1, 1);
+font-size: 20px;
 width: 300px;
 }
 .rodape{
-    background-color: rgb(224, 222, 218);
+    background-color: rgb(5, 3, 0);
     display: flex;
     align-content: center;
     justify-content: space-around;
     height: 170px;
+    color: white;
 
 }
-.home{
+.titulovamos{
     color: white;
+    font-size: 40px;
 }
 
 

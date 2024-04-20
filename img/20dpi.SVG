@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with "sPlan" (http://www.abacom-online.de) -->
+<svg version="1.1" baseProfile="full"
+xmlns="http://www.w3.org/2000/svg"
+width="1273" height="1273">
+<title>sPlan</title>
+<defs>
+<style type="text/css">
+<![CDATA[
+polyline {stroke-linecap:round; stroke-linejoin:round}
+polygon {stroke-linecap:round; stroke-linejoin:round}
+path {stroke-linecap:round; stroke-linejoin:round}
+circle {stroke-linecap:round; stroke-linejoin:round}
+]]>
+</style>
+</defs>
+<path fill="rgb(206,255,255)" stroke="rgb(213,255,255)" stroke-width="2" style="stroke-linecap:square; stroke-linejoin:miter" d=" M 41 41 L 1232 41 1232 1232 41 1232 41 41" />
+<polygon points="1131 183 1131 203 1093 218 1073 233 1064 257 1057 328 1055 424 1041 509 1016 554 987 600 903 664 827 689 745 702 694 704 695 883 695 947 696 978 698 1007 710 1034 721 1043 745 1063 776 1068 821 1069 821 1093 661 1093 441 1093 441 1067 480 1069 521 1063 556 1033 570 994 570 958 570 873 569 705 477 695 368 667 305 625 246 560 222 508 211 449 211 303 201 246 179 220 156 211 131 207 131 182 186 189 237 204 282 235 314 279 328 335 336 399 340 456 344 486 351 521 381 578 408 604 435 623 493 648 530 653 568 657 569 341 568 287 557 254 541 239 523 228 485 218 441 219 442 194 623 193 822 193 822 216 761 222 736 231 714 242 700 276 695 315 696 384 693 493 695 601 695 658 759 650 817 634 860 602 891 569 904 535 916 493 924 411 946 296 975 242 1034 202 1112 183 1132 183" fill="rgb(139,235,214)" stroke="rgb(0,0,0)" stroke-width="8" />
+</svg>
