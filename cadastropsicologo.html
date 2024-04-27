@@ -22,49 +22,71 @@
     <div>
         <img src="/img/psicologiasimbolo.webp" alt="">
     </div>
-    <div class="cadastroprofissional">
-        <div class="nomeprofissinal">
-            <input type="text" placeholder="Digite seu nome">
-         </div>
-         <br>
-         <div class="cpfprofissional">
-            <input type="text" placeholder="Digite seu CPF">
-         </div>
-         <br>
-         <div class="generoprofissional">
-            <input type="text" placeholder="Digite seu gênero">
-         </div>
-         <br>
-         <div class="datanascimentoprofissional">
-            <input type="text" placeholder="Digite sua data de Nascimento">
-         </div>
-         <br>
-         <div class="emailprofissional">
-            <input type="email" placeholder="Digite seu email">
-         </div>
-         <br>
-         <div class="senhaprofissional">
-            <input type="password" placeholder="Digite uma senha">
-         </div>
-         <div class="senhaprofissional">
-            <input type="password" placeholder="Digite a senha novamente">
-         </div>
-         <br>
-         <div class="telefoneprofissional">
-            <input type="tel" placeholder="Digite seu telefone">
-         </div>
-         
-                
-    </div>
+    
+    <div class="contenerform">
+      <div><h1>Criar conta</h1></div>
+         <form class="formprofissional" action="">
+                     <div class="cadastroprofissional">
+                        <br><br>
+                        <div class="nomeprofissinal">
+                              <label for="nomeDoProfissional">Nome do Profissional: </label><br>
+                              <input type="text" id="nomeDoProfissional" placeholder="Digite seu nome">
+                           </div>
+                           <br>
+                           <div class="cpfprofissional">
+                              <label for="cpfDoprofissional"> CPF</label><br>
+                              <input type="text" id="cpfDoprofissional" placeholder="Digite seu CPF">
+                           </div>
+                           <br>
+                           <div class="registroprofissional">
+                              <label for="registoDoprofissional"> Nº do registro do Profissional:</label><br>
+                              <input type="text" id="registroDoprofissional" placeholder="Digite seu CPF">
+                           </div>
+                           <br>
+                           <div class="generoprofissional">
+                              <label for="generoDoprofissional">Gênero do profissional:</label><br>
+                              <input type="text" id="generoDoprofissional" placeholder="Digite seu gênero">
+                           </div>
+                           <br>
+                           <div class="datanascimentoprofissional">
+                              <label for="dataNascimentoDoprofissional">Data de nascimento:</label><br>
+                              <input type="date" id= "dataNascimentoDoprofissional" placeholder="Digite sua data de Nascimento">
+                           </div>
+                           <br>
+                           <div class="emailprofissional">
+                              <label for="emailDoprofissional">E-mail do profissional:</label><br>
+                              <input type="email" id="emailDoprofissional" placeholder="Digite seu email">
+                           </div>
+                           <br>
+                           <div class="senhaprofissional">
+                              <label for="criarsenhaDoprofissional">Criar senha da conta:</label><br>
+                              <input type="password" id="criarsenhaDoprofissional" placeholder="Digite uma senha">
+                           </div>
+                           <div class="senhaprofissional">
+                              <input type="password" placeholder="Digite a senha novamente">
+                           </div>
+                           <br>
+                           <div class="telefoneprofissional">
+                              <label for="telefoneDoprofissional">Telefone:</label><br>
+                              <input type="tel" id="telefoneDoprofissional" placeholder="Digite seu telefone">
+                           </div>
+                           <br><br>
+                           
+                                 
+                     </div>
+            </form>
+      </div>
     <br>
     <br>
     
 </div>
-<div class="criaconta">
-   <a href=""><button>Criar conta, já!</button></a>
+<div class="criacontaprofissional">
+   <a href=""><button id="criarContaDoProfissional">Criar conta, já!</button></a>
 </div>
 
+
 <footer class="rodape">
+   <br><br>
    <div class="logo2">EPSICOLOGO</div>
    <div>
        <div>Empresa</div>
