@@ -1,28 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-*{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+* {
+    font-family: "Poppins", sans-serif;    
 }
-
-
-
 .menu{
-/*background-color: rgb(169, 247, 218);*/
-display: flex;
-justify-content: space-around;
-height: 40px;
-align-items: center;
-padding: 20px; /*descola o menu da borda*/
-list-style-type: none; /* retira os pontos da lista*/
-text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   align-items: center;
+
+    
+   
 }
-.menu img{
-width:100px;
-height: 40px;
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    margin-left: 30px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: coral;
+    margin: auto;
+    display: block;
+}
+li a:hover::after{
+    width: 100%;
+    transition: width 0.3s linear;
 }
 
 
@@ -44,6 +56,7 @@ height: 40px;
 .flex-container img{
     width: 80%;
     height: 80%;
+    padding: 10%;
 
 }
 .sessao1{
@@ -56,7 +69,7 @@ height: 40px;
     height: 600px;
     background-color: rgb(231, 243, 239);
     text-align: center;
-    
+    background-image:url(/img/Ynner.jpg)
 }
 
 .sessao2{
@@ -86,6 +99,7 @@ align-content: center;
 color: rgb(12, 1, 1);
 font-size: 20px;
 width: 300px;
+text-align: end;
 }
 .rodape{
     background-color: rgb(5, 3, 0);
@@ -100,6 +114,8 @@ width: 300px;
 .titulovamos{
     color: white;
     font-size: 40px;
+    text-align: center;
+    padding: 2%;
 }
 
 
@@ -325,4 +341,31 @@ align-items: center;
 }
 
 
-/*  FIM- Tela Cadastro profissional*/
+/*  FIM - Tela Cadastro profissional*/
+
+
+/*  INICIO - Tela Quem somos*/
+.contentquemsomos{
+    display: flex;
+    flex-direction: column;
+    
+    
+    align-items: center;/*aliha a nav e as divs no centro da pagina*/
+    
+}
+
+.quemsomos{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 800%px;
+    height: 600px;
+    margin: 2%;
+    padding: 2%;
+    text-align: justify;
+}
+
+/*  FIM- Tela CTela Quem somos*/
