@@ -66,16 +66,26 @@ li a:hover::after{
     align-items: center;
     align-content: center;
     width: 100%;
-    height: 600px;
+    height: 800px;
     background-color: rgb(231, 243, 239);
     text-align: center;
     background-image:url(/img/Ynner.jpg)
+}
+#botaocadastrese{
+width: 40%;
+height: 40px;
+background-color: rgb(130, 219, 190);
+}
+#botaosaibamais{
+    width: 40%;
+    height: 40px;
+    background-color: rgb(130, 219, 190);
 }
 
 .sessao2{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     align-content: center;
     width: 100%;
