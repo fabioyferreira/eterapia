@@ -1,30 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
-    font-family: "Poppins", sans-serif;    
+    font-family: "Poppins", sans-serif;
 }
-.menu{
+
+.menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-   align-items: center;
+    align-items: center;
 
-    
-   
+
+
 }
-ul{
+
+ul {
     display: flex;
     flex-direction: row;
 }
-li{
+
+li {
     list-style: none;
     margin-left: 30px;
 }
-li a{
+
+li a {
     text-decoration: none;
     color: black;
 }
 
-li a::after{
+li a::after {
     content: '';
     width: 0;
     height: 3px;
@@ -32,34 +37,37 @@ li a::after{
     margin: auto;
     display: block;
 }
-li a:hover::after{
+
+li a:hover::after {
     width: 100%;
     transition: width 0.3s linear;
 }
 
 
 
-.flex-container{
+.flex-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
     background-color: rgb(255, 255, 255);
-   
-    /*background-image: url("img/Ynner.jpg");*/
-    
 
-    
+    /*background-image: url("img/Ynner.jpg");*/
+
+
+
 
 }
-.flex-container img{
+
+.flex-container img {
     width: 80%;
     height: 80%;
     padding: 10%;
 
 }
-.sessao1{
+
+.sessao1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -69,20 +77,22 @@ li a:hover::after{
     height: 800px;
     background-color: rgb(231, 243, 239);
     text-align: center;
-    background-image:url(/img/Ynner.jpg)
+    background-image: url(/img/Ynner.jpg)
 }
-#botaocadastrese{
-width: 40%;
-height: 40px;
-background-color: rgb(130, 219, 190);
-}
-#botaosaibamais{
+
+#botaocadastrese {
     width: 40%;
     height: 40px;
     background-color: rgb(130, 219, 190);
 }
 
-.sessao2{
+#botaosaibamais {
+    width: 40%;
+    height: 40px;
+    background-color: rgb(130, 219, 190);
+}
+
+.sessao2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -93,25 +103,27 @@ background-color: rgb(130, 219, 190);
     background-color: rgb(245, 245, 245);
     text-align: center;
 }
-.sessao2 img{
+
+.sessao2 img {
     width: 500px;
     height: 400px;
 }
 
-.logo2{
-display: contents;
-justify-content: center;
-align-items: center;
-align-content: center;
+.logo2 {
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
-.paragrafo1{
-color: rgb(12, 1, 1);
-font-size: 20px;
-width: 300px;
-text-align: end;
+.paragrafo1 {
+    color: rgb(12, 1, 1);
+    font-size: 20px;
+    width: 300px;
+    text-align: end;
 }
-.rodape{
+
+.rodape {
     background-color: rgb(5, 3, 0);
     display: flex;
     flex-direction: row;
@@ -121,7 +133,8 @@ text-align: end;
     color: white;
 
 }
-.titulovamos{
+
+.titulovamos {
     color: white;
     font-size: 40px;
     text-align: center;
@@ -131,19 +144,19 @@ text-align: end;
 
 /*  INICIO - Tela Login*/
 
-.container-login{
+.container-login {
     display: flex;
     align-content: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-   height: 800px;
-  
-   background-color: rgb(170, 172, 171);
+    height: 800px;
+
+    background-color: rgb(170, 172, 171);
 
 }
 
-.acessarconta{
+.acessarconta {
     display: flex;
     background-color: rgb(202, 201, 201);
     flex-direction: column;
@@ -156,12 +169,14 @@ text-align: end;
     border-radius: 15px;
 
 }
-.email{
+
+.email {
     display: flex;
     flex-direction: column;
 
 }
-.senha{
+
+.senha {
     display: flex;
     flex-direction: column;
 
@@ -172,46 +187,51 @@ text-align: end;
 
 
 /*  INICIO - Tela QUEM É VC*/
-.container-quemevc{
-display: flex;
-flex-direction: column;
-height: 300px;
-/*background-color: rgb(240, 238, 238);*/
-justify-content: center; /*alinh o texto horizontalmente*/
-align-items: center;
+.container-quemevc {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    /*background-color: rgb(240, 238, 238);*/
+    justify-content: center;
+    /*alinh o texto horizontalmente*/
+    align-items: center;
 
 
 }
-.menucontenos{
+
+.menucontenos {
     display: flex;
     flex-direction: column;
 
 }
-.crieconta{
-display:flex;
-background-color: rgb(245, 187, 187);
-border: solid 0px ;
-border-radius: 17px;
-width: 500px;
-align-items: center;
-justify-content: center;
+
+.crieconta {
+    display: flex;
+    background-color: rgb(245, 187, 187);
+    border: solid 0px;
+    border-radius: 17px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
 
 }
-.contenos{
+
+.contenos {
     display: flex;
     flex-direction: column;
     background-color: rgb(147, 199, 241);
     width: 600px;
     height: 100px;
-    border: solid 0px ;
+    border: solid 0px;
     border-radius: 17px;
     align-items: center;
-    justify-content: center; /*Coloca o texto ao cento de cima para baixo*/
+    justify-content: center;
+    /*Coloca o texto ao cento de cima para baixo*/
 
-   
+
 }
 
-.sou{
+.sou {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -220,52 +240,65 @@ justify-content: center;
     text-align: center;
     height: 500px;
     justify-content: space-around;
-    
+
 }
-.paciente{
+
+.paciente {
     display: flex;
-    flex-direction: column; /* Coloca o texto e o botão um abaixo do outro*/
+    flex-direction: column;
+    /* Coloca o texto e o botão um abaixo do outro*/
     width: 500px;
     height: 500px;
     background-color: rgb(162, 204, 204);
     text-align: center;
-    border: solid 2px ;
+    border: solid 2px;
     border-radius: 5px;
     justify-content: center;
     justify-items: center;
-    align-items: center; /*Alinha o texto na div*/
-    box-shadow: 10px 10px 10px rgb(69, 133, 141); /*Faz uma sombra em uma caixa*/
-    padding: 50px; /*Coloca margem interna na caixa*/
-    text-align: justify; /*coloca o texto da caixa justificado*/
+    align-items: center;
+    /*Alinha o texto na div*/
+    box-shadow: 10px 10px 10px rgb(69, 133, 141);
+    /*Faz uma sombra em uma caixa*/
+    padding: 50px;
+    /*Coloca margem interna na caixa*/
+    text-align: justify;
+    /*coloca o texto da caixa justificado*/
 
 
 }
-.profissional{
+
+.profissional {
     display: flex;
     flex-direction: column;
     width: 500px;
     height: 500px;
     background-color: rgb(130, 130, 185);
     text-align: center;
-    border: solid 2px ;
+    border: solid 2px;
     border-radius: 5px;
     justify-content: center;
-    align-items: center; /*Alinha o texto na div*/
-    box-shadow: 10px 10px 10px rgb(114, 98, 128); /*Faz uma sombra em uma caixa*/
-    padding: 50px; /*Coloca margem interna na caixa*/
+    align-items: center;
+    /*Alinha o texto na div*/
+    box-shadow: 10px 10px 10px rgb(114, 98, 128);
+    /*Faz uma sombra em uma caixa*/
+    padding: 50px;
+    /*Coloca margem interna na caixa*/
     margin: 10px;
-    text-align: justify; /*coloca o texto da caixa justificado*/
-    
+    text-align: justify;
+    /*coloca o texto da caixa justificado*/
+
 }
-.criacontaprofissional{
+
+.criacontaprofissional {
     display: flex;
     align-content: center;
     justify-content: center;
-width: 100%;
-height: 200px;
-background-color:  rgb(198, 240, 226);
+    width: 100%;
+    height: 200px;
+    background-color: rgb(198, 240, 226);
 }
-#criarContaDoProfissional{
+
+#criarContaDoProfissional {
     width: 300px;
     height: 100px;
     font-size: large;
@@ -276,7 +309,7 @@ background-color:  rgb(198, 240, 226);
 
 
 /*  INICIO- Tela paciente*/
-.insiradadospaciente{
+.insiradadospaciente {
     display: flex;
     text-align: center;
     align-items: center;
@@ -286,16 +319,18 @@ background-color:  rgb(198, 240, 226);
     height: 200px;
 
 }
-.cadastrarpaciente{
-display: flex;
-flex-direction: row;
-max-width: 100%;
-height: 800px;
-justify-content: space-evenly;
-background-color: rgb(219, 225, 245);
-align-items: center;
+
+.cadastrarpaciente {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    height: 800px;
+    justify-content: space-evenly;
+    background-color: rgb(219, 225, 245);
+    align-items: center;
 }
-.cadastrarpaciente img{
+
+.cadastrarpaciente img {
     width: 300px;
     height: 350px;
 }
@@ -306,7 +341,7 @@ align-items: center;
 
 /*  INICIO- Tela Cadastro profissional*/
 
-.contenerform{
+.contenerform {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -320,7 +355,8 @@ align-items: center;
     color: rgb(55, 87, 77);
     box-shadow: 10px 10px 10px rgb(69, 110, 96);
 }
-.insiradadosprofissional{
+
+.insiradadosprofissional {
     display: flex;
     text-align: center;
     align-items: center;
@@ -330,22 +366,25 @@ align-items: center;
     background-color: rgb(200, 223, 215);
 
 }
-.criaconta{
-display: flex;
-justify-content: center;
-max-width: 100%;
-height: 50px;
-background-color: rgb(198, 240, 226);
+
+.criaconta {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: 50px;
+    background-color: rgb(198, 240, 226);
 }
-.cadastrarprofissional{
-display: flex;
-flex-direction: row;
-max-width: 100%;
-justify-content: space-evenly;
-background-color: rgb(198, 240, 226);
-align-items: center;
+
+.cadastrarprofissional {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-evenly;
+    background-color: rgb(198, 240, 226);
+    align-items: center;
 }
-.cadastrar img{
+
+.cadastrar img {
     width: 300px;
     height: 350px;
 }
@@ -355,16 +394,17 @@ align-items: center;
 
 
 /*  INICIO - Tela Quem somos*/
-.contentquemsomos{
+.contentquemsomos {
     display: flex;
     flex-direction: column;
-    
-    
-    align-items: center;/*aliha a nav e as divs no centro da pagina*/
-    
+
+
+    align-items: center;
+    /*aliha a nav e as divs no centro da pagina*/
+
 }
 
-.quemsomos{
+.quemsomos {
     display: flex;
     flex-direction: column;
     background-color: rgb(238, 238, 238);
@@ -379,3 +419,171 @@ align-items: center;
 }
 
 /*  FIM- Tela CTela Quem somos*/
+
+
+
+
+.container-atendimento{
+ width: auto;
+    
+
+
+}
+.prateleira{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(247, 247, 242);
+    
+    align-items: center;
+    align-content: center;
+
+   
+
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.btn-prateleira{
+    background-color: rgb(40, 105, 59);
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+    
+    
+
+}
+
+.prateleira img {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    max-width: auto;
+    min-height: auto;
+    overflow: hidden;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.profissional1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(218, 227, 253);
+    border-radius: 13px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 30%;
+    align-items: center;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgb(69, 110, 96);
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.profissional2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(218, 227, 253);
+    border-radius: 13px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 30%;
+    align-items: center;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgb(69, 110, 96);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.profissional3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(218, 227, 253);
+    border-radius: 13px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 30%;
+    align-items: center;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgb(69, 110, 96);
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.profissional4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(218, 227, 253);
+    border-radius: 13px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 30%;
+    align-items: center;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgb(69, 110, 96);
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.profissional5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(218, 227, 253);
+    border-radius: 13px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 30%;
+    align-items: center;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgb(69, 110, 96);
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.profissional6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(218, 227, 253);
+    border-radius: 13px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 30%;
+    align-items: center;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgb(69, 110, 96);
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.profissional7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(218, 227, 253);
+    border-radius: 13px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 30%;
+    align-items: center;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgb(69, 110, 96);
+    margin-top: 20px;/* coloca espaços entre os baloes rochos da caixa do profissinal*/
+    margin-bottom: auto;
+
+
+}
