@@ -1,100 +1,129 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Cadastro profissional</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="/scrippaciente.js">
+   <title>Cadastro profissional</title>
 </head>
+
 <body>
 
    <nav class="menu">
       <ul>
-         <li><a href="/index.html">Início</a></li>   
+         <li><a href="/index.html">Início</a></li>
          <li><a href="/cadastropaciente.html">Paciente</a></li>
-         <li><a href="/cadastropsicologo.html">Psicólogos</a></li>
+
          <li><a href="/quemsomos.html">Sobre</a></li>
          <li><a href="/conta.html">Conta</a></li>
-        
-     </ul>
-     <a href="/login.html"><Button>Entrar</Button></a>
-  </nav>
-    <div class="insiradadosprofissional"><h1>Profissional, insira seus dados para que possamos reconhecê-lo(a)!</h1></div>
-<div class="cadastrarprofissional">
-    <div>
-        <img src="/img/psicologiasimbolo.webp" alt="">
-    </div>
-    
-    <div class="contenerform">
-      <div><h1>Criar conta</h1></div>
-         <form class="formprofissional" action="">
-                     <div class="cadastroprofissional">
-                        <br><br>
-                        <div class="nomeprofissinal">
-                              <label for="nomeDoProfissional">Nome do Profissional: </label><br>
-                              <input type="text" id="nomeDoProfissional" placeholder="Digite seu nome">
-                           </div>
-                           <br>
-                           <div class="cpfprofissional">
-                              <label for="cpfDoprofissional"> CPF</label><br>
-                              <input type="text" id="cpfDoprofissional" placeholder="Digite seu CPF">
-                           </div>
-                           <br>
-                           <div class="registroprofissional">
-                              <label for="registoDoprofissional"> Nº do registro do Profissional:</label><br>
-                              <input type="text" id="registroDoprofissional" placeholder="Digite seu CPF">
-                           </div>
-                           <br>
-                           <div class="generoprofissional">
-                              <label for="generoDoprofissional">Gênero do profissional:</label><br>
-                              <input type="text" id="generoDoprofissional" placeholder="Digite seu gênero">
-                           </div>
-                           <br>
-                           <div class="datanascimentoprofissional">
-                              <label for="dataNascimentoDoprofissional">Data de nascimento:</label><br>
-                              <input type="date" id= "dataNascimentoDoprofissional" placeholder="Digite sua data de Nascimento">
-                           </div>
-                           <br>
-                           <div class="emailprofissional">
-                              <label for="emailDoprofissional">E-mail do profissional:</label><br>
-                              <input type="email" id="emailDoprofissional" placeholder="Digite seu email">
-                           </div>
-                           <br>
-                           <div class="senhaprofissional">
-                              <label for="criarsenhaDoprofissional">Criar senha da conta:</label><br>
-                              <input type="password" id="criarsenhaDoprofissional" placeholder="Digite uma senha">
-                           </div>
-                           <div class="senhaprofissional">
-                              <input type="password" placeholder="Digite a senha novamente">
-                           </div>
-                           <br>
-                           <div class="telefoneprofissional">
-                              <label for="telefoneDoprofissional">Telefone:</label><br>
-                              <input type="tel" id="telefoneDoprofissional" placeholder="Digite seu telefone">
-                           </div>
-                           <br><br>
-                           
-                                 
-                     </div>
-            </form>
-      </div>
-    <br>
-    <br>
-    
-</div>
-<div class="criacontaprofissional">
-   <a href=""><button id="criarContaDoProfissional">Criar conta, já!</button></a>
-</div>
 
-
-<footer class="rodape">
-   <br><br>
-   <div class="logo2">EPSICOLOGO</div>
-   <div>
-       <div>Empresa</div>
-       <div>Quem somos</div>
-       <div>O que oferecemos</div>
+      </ul>
+      <a href="/login.html"><Button>Entrar</Button></a>
+   </nav>
+   <div class="insiradadosprofissional">
+      <h1>Profissional, insira seus dados para que possamos reconhecê-lo(a)!</h1>
    </div>
-</footer>
+   <div class="cadastrarprofissional">
+      <div>
+         <img id="simbolopsi" src="/img/psicologiasimbolo.webp" alt="">
+      </div>
+
+      <div class="contenerform">
+         <div>
+            <h1>Criar conta</h1>
+         </div>
+         <form class="formprofissional" action="">
+            <div class="cadastroprofissional">
+               <br><br>
+               <div class="nomeprofissinal">
+                  <label for="nomeDoProfissional">Nome do Profissional: </label><br>
+                  <input class="entrada" type="text" id="nomeDoProfissional" placeholder="Digite seu nome">
+               </div>
+               <br>
+               <div class="cpfprofissional">
+                  <label for="cpfDoprofissional"> CPF</label><br>
+                  <input class="entrada" type="text" id="cpfDoprofissional" placeholder="Digite seu CPF">
+               </div>
+               <br>
+               <div class="registroprofissional">
+                  <label for="registoDoprofissional"> Nº do registro do Profissional:</label><br>
+                  <input class="entrada" type="text" id="registroDoprofissional" placeholder="Digiteo N° do CRP">
+               </div>
+               <br>
+               <div class="generoprofissional">
+                  <label for="generoDoprofissional">Gênero do profissional:</label><br>
+                  <input class="entrada" type="text" id="generoDoprofissional" placeholder="Digite seu gênero">
+               </div>
+               <br>
+               <div class="datanascimentoprofissional">
+                  <label for="dataNascimentoDoprofissional">Data de nascimento:</label><br>
+                  <input class="entrada" type="date" id="dataNascimentoDoprofissional"
+                     placeholder="Digite sua data de Nascimento">
+               </div>
+               <br>
+               <div class="emailprofissional">
+                  <label for="emailDoprofissional">E-mail do profissional:</label><br>
+                  <input class="entrada" type="email" id="emailDoprofissional" placeholder="Digite seu email">
+               </div>
+               <br>
+               <div class="senhaprofissional">
+                  <label for="criarsenhaDoprofissional">Criar senha da conta:</label><br>
+                  <input class="entrada" type="password" id="criarsenhaDoprofissional" placeholder="Digite uma senha">
+               </div>
+               <div class="senhaprofissional">
+                  <input class="entrada" type="password" placeholder="Digite a senha novamente">
+               </div>
+               <br>
+               <div class="telefoneprofissional">
+                  <label for="telefoneDoprofissional">Telefone:</label><br>
+                  <input class="entrada" type="tel" id="telefoneDoprofissional" placeholder="Digite seu telefone">
+               </div>
+               <br><br>
+
+
+            </div>
+         </form>
+      </div>
+      <br>
+      <br>
+
+   </div>
+   <div class="criacontaprofissional">
+      <a href="/login.html"><button id="criarContaDoProfissional" onclick="abriralerta()">Criar conta, já!</button></a>
+   </div>
+
+
+
+   <footer class="rodape">
+      <div class="logo2">EPSICOLOGO</div>
+      <div>
+         <div>Empresa</div>
+         <div>Quem somos</div>
+         <div>O que oferecemos</div>
+      </div>
+
+      <div class="sociais">
+         <div>
+            <img src="/img/instagram.png" width="30" height="30px" alt="">
+         </div>
+         <div>
+            <img src="/img/yutubeicon.png" width="30" height="30px" alt="">
+         </div>
+         <div>
+            <img src="/img/whatzapicon.png" width="30" height="30px" alt="">
+         </div>
+      </div>
+   </footer>
+
+
+   <script>
+      function abriralerta() {
+         alert("Profissional, precisará de um n° de registro do Conselho Profissinal válido!");
+      }
+   </script>
+
 </body>
+
 </html>

@@ -4,39 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quem somos</title>
+    <title>Agendar</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scrippaciente.js">
 </head>
 
 <body>
-
     <nav class="menu">
         <ul>
             <li><a href="/index.html">Início</a></li>
             <li><a href="/cadastropaciente.html">Paciente</a></li>
             <li><a href="/cadastropsicologo.html">Psicólogos</a></li>
-            
-            <li><a href="/conta.html">Conta</a></li>
+            <li><a href="quemsomos.html">Quem somos</a></li>
+
 
         </ul>
         <a href="/login.html"><Button>Entrar</Button></a>
     </nav>
-    <div class="contentquemsomos">
-
-        <div class="quemsomos">
-            <h1>Quem somos?</h1>
-
-            <div class="paragrafoquem">
-                <p>Somos uma empresa líder no setor de serviços on-line de consultas terapêuticas. Nosso objetivo é
-                    proporcionar aos nossos clientes uma plataforma totalmente tecnológica e, ao mesmo tempo, humanizada
-                    onde os usuáios possam usufruir
-                    o máximo dos serviços terapêuticos.
-                </p>
-            </div>
-        </div>
-
+    <div>
+        <header class="reader-agenda">Quais dias você se disponibilizará para ser atendido(a)?</header>
     </div>
 
+    <div class="container-agenda">
+
+        <div class="agenda">
+
+            <div class="calendario">
+                <p>Selecione uma data:</p>
+                <input id="calendario" type="date">
+            </div>
+
+            <div class="calendario">
+                <label for="">Código do profissional</label>
+                <input id="calendario" type="">
+            </div>
+            
+
+        </div>
+        <div><a href="/pagamento.html"><button>Agendar!</button></a></div>
+
+
+    </div>
 
     <footer class="rodape">
         <div class="logo2">EPSICOLOGO</div>
@@ -48,7 +56,7 @@
 
         <div class="sociais">
             <div>
-                <img src="/img/instagram.png" width="30" height="30px"  alt="">
+                <img src="/img/instagram.png" width="30" height="30px" alt="">
             </div>
             <div>
                 <img src="/img/yutubeicon.png" width="30" height="30px" alt="">

@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conta</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
@@ -20,31 +22,26 @@
         </ul>
         <a href="/login.html"><Button>Entrar</Button></a>
     </nav>
-
-    <div class="conta-container">
-
-        <div>
-            <p>Informações pessoais</p>
-        </div>
-        <div>
-            <p>Segurança</p>
-        </div>
-        <div>
-            <p>Suporte</p>
-        </div>
-
-        <div>
-            <p>Monitoramento dos pais ou responsáveis</p>
-        </div>
-        <div>
-            <p>Histórico de consultas</p>
-        </div>
-        <div>
-            <p>Desativar ou excluir conta</p>
-        </div>
-
-
+    <div >
+        <header>Vamos começar!? Só mais um passo e já podemos nos falar!! </header>
     </div>
+   
+
+    <div id="dialog-message" class="dialog-message"   title="">
+
+        <div class="caixa-pagamento">
+            <p>
+                <img src="/img/qrcode.png">
+                <br>
+                <br>
+                Após a confirmação do pagamento você será redirecionado ao Atendimento!
+                <br>
+                <br>
+                <a href="/teleatendimento.html"><button>Confirmar!</button></a>
+            </p>
+        </div>
+    </div>
+
     <footer class="rodape">
         <div class="logo2">EPSICOLOGO</div>
         <div>
@@ -65,8 +62,6 @@
             </div>
         </div>
     </footer>
-
-
 </body>
 
 </html>

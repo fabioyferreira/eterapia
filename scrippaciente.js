@@ -98,3 +98,20 @@ document.addEventListener('DOMContentLoaded', function () {
 /////////////////////////////////////////////////////
 
 
+$( function() {
+  $( "#dialog-message" ).dialog({
+    modal: true,
+    buttons: {
+      Ok: function() {
+        $( this ).dialog( "close" );
+      }
+    }
+  });
+} );
+
+function validacao(){
+  alert("Profissional, só é possivel prestar o serviço apos a validação do numero do seu Registro do conselho profissional!");
+}
+
+
+

@@ -128,6 +128,7 @@ li a:hover::after {
     display: flex;
     flex-direction: row;
     align-content: center;
+    align-items: center;
     justify-content: space-around;
     height: 170px;
     color: white;
@@ -231,6 +232,20 @@ li a:hover::after {
 
 }
 
+#botaocadastrese {
+    background-color: rgb(127, 236, 200);
+    color: white;
+    border-radius: 10px;
+
+}
+
+#botaosaibamais {
+    background-color: rgb(127, 236, 200);
+    color: rgb(37, 29, 29);
+    border-radius: 10px;
+
+}
+
 .sou {
     display: flex;
     flex-direction: row;
@@ -273,7 +288,7 @@ li a:hover::after {
     width: 500px;
     height: 500px;
     background-color: rgb(130, 130, 185);
-    text-align: center;
+
     border: solid 2px;
     border-radius: 5px;
     justify-content: center;
@@ -286,8 +301,22 @@ li a:hover::after {
     margin: 10px;
     text-align: justify;
     /*coloca o texto da caixa justificado*/
+}
+
+.profissional img {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+    /*Coloca a imagem no centro do container rocho*/
 
 }
+
+
 
 .criacontaprofissional {
     display: flex;
@@ -296,6 +325,12 @@ li a:hover::after {
     width: 100%;
     height: 200px;
     background-color: rgb(198, 240, 226);
+}
+
+#simbolopsi {
+    width: 50%;
+    height: 50%;
+    margin: auto;
 }
 
 #criarContaDoProfissional {
@@ -397,9 +432,11 @@ li a:hover::after {
 .contentquemsomos {
     display: flex;
     flex-direction: column;
-
-
+    width: 100%;
     align-items: center;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
     /*aliha a nav e as divs no centro da pagina*/
 
 }
@@ -407,14 +444,14 @@ li a:hover::after {
 .quemsomos {
     display: flex;
     flex-direction: column;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(203, 252, 249);
     justify-content: center;
     align-content: center;
     align-items: center;
     width: 800%px;
-    height: 600px;
+    height: 60%;
     margin: 2%;
-    padding: 2%;
+    padding: 25%;
     text-align: justify;
 }
 
@@ -423,35 +460,36 @@ li a:hover::after {
 
 
 
-.container-atendimento{
- width: auto;
-    
+.container-atendimento {
+    width: auto;
+
 
 
 }
-.prateleira{
+
+.prateleira {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     background-color: rgb(247, 247, 242);
-    
+    height: 100%;
     align-items: center;
     align-content: center;
 
-   
+
 
     margin-top: auto;
     margin-bottom: auto;
 
 }
 
-.btn-prateleira{
+.btn-prateleira {
     background-color: rgb(40, 105, 59);
     color: white;
     border-radius: 10px;
     font-size: 10px;
-    
-    
+
+
 
 }
 
@@ -582,8 +620,192 @@ li a:hover::after {
     align-items: center;
     margin: auto;
     box-shadow: 10px 10px 10px rgb(69, 110, 96);
-    margin-top: 20px;/* coloca espaços entre os baloes rochos da caixa do profissinal*/
+    margin-top: 20px;
+    /* coloca espaços entre os baloes rochos da caixa do profissinal*/
     margin-bottom: auto;
 
 
+}
+
+
+
+
+
+
+.estrelas input[type=radio] {
+    display: none;
+}
+
+.estrelas label i.fa:before {
+    content: '\f005';
+    color: #FC0;
+}
+
+.estrelas input[type=radio]:checked~label i.fa:before {
+    color: #CCC;
+}
+
+
+
+
+
+
+.caixa-pagamento {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(205, 240, 228);
+}
+
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+.container-teleatendimento {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    /*Alinhamento dos itens na horizontal*/
+    width: 100%;
+    height: 900px;
+    background-color: #e5f7f4;
+
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 52%;
+    background-color: rgb(198, 238, 250);
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    /*coloca margem no container chat para não ficar colado nas bordas*/
+}
+
+
+#container {
+    width: 50%;
+    margin: 0px auto;
+    width: 20%;
+    height: 40%;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+}
+
+#videoElement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    max-height: 800px;
+    background-color: #666;
+    display: flex;
+    flex-direction: column;
+    border: 5px #d9f8f4 solid;
+
+}
+
+.entrada {
+    display: flex;
+    width: 80%;
+
+}
+
+
+
+.conta-container {
+    width: 100%;
+    height: 600px;
+    background-color: #eeeded;
+    padding: auto;
+    margin: auto;
+}
+
+.sociais {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    padding: auto;
+
+
+
+}
+
+.dialog-message {
+    display: flex;
+    justify-content: center;
+    /*Centraliza  o conteudo da div na vertical*/
+    align-items: center;
+    /*Centraliza  o conteudo da div na horizontal*/
+    width: 100%;
+    height: 100%;
+    background-color: rgb(238, 237, 234);
+}
+
+.caixa-pagamento {
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.reader-agenda {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 35%;
+    text-align: center;
+
+}
+
+.container-agenda {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #FC0;
+}
+
+.agenda {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    background-color: #bbf7f7;
+
+}
+
+#calendario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
 }

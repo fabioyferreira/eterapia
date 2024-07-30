@@ -1,94 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Cadastro Paciente</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <title>Cadastro Paciente</title>
 </head>
+
 <body>
 
-   <nav class="menu">
-      <ul>
-          <li><a href="/index.html">Início</a></li>   
-          <li><a href="/cadastropaciente.html">Paciente</a></li>
-          <li><a href="/cadastropsicologo.html">Psicólogos</a></li>
-          <li><a href="quemsomos.html">Quem somos</a></li>
-          <li><a href="/conta.html">Conta</a></li>
-  
-      </ul>
-  <a href="/login.html"><Button>Entrar</Button></a>
-</nav>
-      <div class="insiradadospaciente"><h1>Paciente, insira seus dados para que possamos reconhecê-lo(a)!</h1></div>
-   <div class="cadastrarpaciente">
+      <nav class="menu">
+            <ul>
+                  <li><a href="/index.html">Início</a></li>
+                  <li><a href="/cadastropsicologo.html">Psicólogos</a></li>
+                  <li><a href="quemsomos.html">Quem somos</a></li>
+                  <li><a href="/conta.html">Conta</a></li>
 
-         <div>
-            <img src="/img/paciente.png" alt="">
-         </div>
-         <div class="contenerform">
-         
-         <div><h1>Criar conta</h1></div>
-         
-         <form id="cadpaciente"  action="">
-            <div class="cadastropaciente">
-                        <div class="nomepaciente">
-                              <input   id="nomepaciente" type="text" placeholder="Digite seu nome">
-                        </div>
-                        <br>
-
-                        <div class="cpfpaciente">
-                              <input id="cpfpaciente"  type="text" placeholder="Digite seu CPF">
-                        </div>
-                        <br>
-
-                        <div class="generopaciente">
-                              <input type="text" placeholder="Digite seu gênero">
-                        </div>
-                        <br>
-
-                        <div class="datanascimentopaciente">
-                              <input type="text" placeholder="Digite sua data de Nascimento">
-                        </div>
-                        <br>
-
-                        <div class="emailpaciente">
-                              <input type="email" placeholder="Digite seu email">
-                        </div>
-                        <br>
-
-                        <div class="senhapaciente">
-                              <input type="password" placeholder="Digite uma senha">
-                        </div>
-                        <div class="senhapacientel">
-                              <input type="password" placeholder="Digite a senha novamente">
-                        </div>
-                           <br>
-                        
-                           <div class="telefonepacinte">
-                              <input type="tel" placeholder="Digite seu telefone">
-                           </div>
-                  
-            </div>   
-            <button type="submit" id="submitpaciente">Cadastrar paciente</button>
-            </form>
+            </ul>
+            <a href="/login.html"><Button>Entrar</Button></a>
+      </nav>
+      <div class="insiradadospaciente">
+            <h1>Paciente, insira seus dados para que possamos reconhecê-lo(a)!</h1>
       </div>
-    <br>
-    <br>
+      <div class="cadastrarpaciente">
+
+            <div>
+                  <img src="/img/paciente.png" alt="">
+            </div>
+            <div class="contenerform">
+
+                  <div>
+                        <h1>Criar conta</h1>
+                  </div>
+
+                  <form id="cadpaciente" action="">
+                        <div class="cadastropaciente">
+                              <div class="nomepaciente">
+                                    <input class="entrada" id="nomepaciente" type="text" placeholder="Digite seu nome">
+                              </div>
+                              <br>
+
+                              <div class="cpfpaciente">
+                                    <input class="entrada" id="cpfpaciente" type="text" placeholder="Digite seu CPF">
+                              </div>
+                              <br>
+
+                              <div class="generopaciente">
+                                    <input class="entrada" type="text" placeholder="Digite seu gênero">
+                              </div>
+                              <br>
+
+                              <div class="datanascimentopaciente">
+                                    <input class="entrada" type="text" placeholder="Digite sua data de Nascimento">
+                              </div>
+                              <br>
+
+                              <div class="emailpaciente">
+                                    <input class="entrada" type="email" placeholder="Digite seu email">
+                              </div>
+                              <br>
+
+                              <div class="senhapaciente">
+                                    <input class="entrada" type="password" placeholder="Digite uma senha">
+                              </div>
+                              <div class="senhapacientel">
+                                    <input class="entrada" type="password" placeholder="Digite a senha novamente">
+                              </div>
+                              <br>
+
+                              <div class="telefonepacinte">
+                                    <input class="entrada" type="tel" placeholder="Digite seu telefone">
+                              </div>
+
+                        </div>
+                        <br>
+                        
+
+                  </form>
+                  <a href="/login.html">
+
+                        <button type="submit" id="submitpaciente">
+                              Criar conta!
+                        </button>
+                  </a>
+            </div>
+            <br>
+            <br>
+
+      </div>
+
+
+
+      <footer class="rodape">
+            <div class="logo2">EPSICOLOGO</div>
+            <div>
+                <div>Empresa</div>
+                <div>Quem somos</div>
+                <div>O que oferecemos</div>
+            </div>
     
-   </div>
-
-<div class="criaconta">
-   <a href=""><button>Criar conta, já!</button></a>
-</div>
-
-<footer class="rodape">
-   <div class="logo2">EPSICOLOGO</div>
-   <div>
-       <div>Empresa</div>
-       <div>Quem somos</div>
-       <div>O que oferecemos</div>
-   </div>
-</footer>
-<script src="scrippaciente.js"></script>
+            <div class="sociais">
+                <div>
+                    <img src="/img/instagram.png" width="30" height="30px"  alt="">
+                </div>
+                <div>
+                    <img src="/img/yutubeicon.png" width="30" height="30px" alt="">
+                </div>
+                <div>
+                    <img src="/img/whatzapicon.png" width="30" height="30px" alt="">
+                </div>
+            </div>
+        </footer>
+      <script src="scrippaciente.js"></script>
 </body>
+
 </html>
